@@ -34,4 +34,4 @@ RUN echo "Install aws-cli" && \
 
 RUN rm /var/cache/apk/*
 
-CMD sh setcron.sh
+ENTRYPOINT setcron.sh
